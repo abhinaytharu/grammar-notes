@@ -69,3 +69,37 @@ body{
 .container td b {
     color: #7ecbff;
 }
+
+.nav-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7ecbff;
+    padding: 10px 20px;
+    border-radius: 26px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.nav-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .nav-button {
+        display: block;
+        position: static;
+        width: 90%;
+        margin: 30px auto 1rem auto;
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 14px 0;
+        border-radius: 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    }
+}
