@@ -15,7 +15,9 @@ body{
     margin: 0 auto;
     min-height: 98vh;
     padding: 20px;
+    overflow: scroll;
 }
+
 
  .container h2 {
     color: #7ecbff;
@@ -102,4 +104,10 @@ body{
         border-radius: 20px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.10);
     }
+
+
+}
+.table-scroll {
+    overflow-x: auto;
+    margin-bottom: 20px;
 }
